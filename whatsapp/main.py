@@ -64,7 +64,7 @@ def process_message(msg):
    elif raw_msg in 'hagamos un meet':
        return 'Va'
    else:
-       return 'No te entiendo perdon' 
+       return 'Disculpa, no te entendi, podrias decirlo de otra forma??' 
 
 #Ciclar
 delay = 10
